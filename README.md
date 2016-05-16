@@ -1,19 +1,19 @@
-# w5d2: [Rails Lite!][description]
+# Rails Lite
 
-## Using The Specs
+Rails Lite is a web-application framework that is inspired by [Rails](github.com/rails/rails).  Rails Lite includes controller, route, router, and session classes to create database-backed web applications according to the Model-View-Controller (MVC) Pattern.
 
-Some specs have been written to guide you towards the lite. There are
-rspec specs in the `spec` directory and demo servers for you to try
-in the `bin` directory.
+## Technical Features
 
-## Suggested Order
+### Controller Base
+* Responsible for handling incoming HTTP requests and providing a response.
+* Load and manipulate models
+* Render view templates to generate an appropriate HTTP response
 
-0.  `bundle exec rspec spec/p02_controller_spec.rb`
-0.  `bundle exec rspec spec/p03_template_spec.rb`
-0.  `bundle exec rspec spec/p04_session_spec.rb`
-0.  `bundle exec rspec spec/p05_router_spec.rb`
-0.  `bundle exec rspec spec/p06_integration_spec.rb`
+### Router/Routes
+* Recognizes URLs and dispatches them to a controller's action.
+* A Route consists of a URL pattern, HTTP method, associated controller, and an action.
+* A Router holds all the Routes and matches them with a request appropriately.
 
-Run `bundle exec rspec` to run all the spec files.
-
-[description]: https://github.com/appacademy/rails-curriculum/blob/master/projects/w5d2-rails-lite-i.md
+### Session
+* Stores data from the Apps associated cookie
+* Allows information to be saved between visits
