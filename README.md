@@ -1,6 +1,6 @@
-# Railz
+# R41LS
 
-Railz is a web-application framework that is inspired by [Rails](github.com/rails/rails).  Railz includes controller, route, router, and session classes to create database-backed web applications according to the Model-View-Controller (MVC) Pattern.
+R41LS is a web-application framework that is inspired by [Rails](github.com/rails/rails).  R41LS includes controller, route, router, and session classes to create database-backed web applications according to the Model-View-Controller (MVC) Pattern.
 
 ## Technical Features
 
